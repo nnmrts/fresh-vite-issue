@@ -1,0 +1,34 @@
+{
+  "deno.enable": true,
+  "deno.lint": true,
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "css.customData": [
+    ".vscode/tailwind.json"
+],
+"files.watcherExclude": {
+	"**/.git/objects/**": true,
+	"**/.git/subtree-cache/**": true,
+	"**/.hg/store/**": true,
+	"**/.dart_tool": true,
+	"**/.trunk/*actions/": true,
+	"**/.trunk/*logs/": true,
+	"**/.trunk/*out": true,
+	"**/.trunk/*out/": true,
+	"**/.trunk/*plugins/": true,
+	"**/.git/**": true,
+	"**/node_modules/**": true,
+	"**/.vscode/**": true
+}
+}
